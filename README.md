@@ -1,9 +1,9 @@
-# Proyecto-Bootstrap-Grupo-4
+# Proyecto Individual JS Mensajes
 Proyecto Git
 
-Proyecto Awakelab de Version Boostrap
+Proyecto Awakelab de Version JS
 
-v2.0 Creado por pbaez 
+v3.0 Creado por pbaez 
 pbaez@gmail.com
 
 En esta version se modificaron otras opciones
