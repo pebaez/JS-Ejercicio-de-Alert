@@ -17,7 +17,10 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+
+<!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
 
 </head>
 <body>
@@ -113,24 +116,24 @@
       
             <div>
               <label for="nombre">Nombre*</label>
-              <input type="text" class="form-control bg-success text-white" placeholder="Nombre*" required>
+              <input type="text" class="form-control bg-light text-dark" id="nombre" placeholder="Nombre*" >
             </div>
             <div>
               <label for="telefono">Ingrese tu Telefono*</label>
-              <input type="text" class="form-control bg-success text-white" id="telefono" placeholder="Telefono*" required>
+              <input type="text" class="form-control bg-light text-dark" id="telefono" name="telefono" placeholder="Telefono*" >
             </div>
       
             <div>
               <label for="email">Ingrese su Email*</label>
-              <input type="email"  class="form-control bg-success text-white" id="email" placeholder="Ingrese su email*" required>
+              <input type="email"  class="form-control bg-light text-dark" id="email" name="email" placeholder="Ingrese su email*" >
             </div>
       
             <div>
               <label for="comentario">Comentarios</label>
-              <textarea id="comentario" class="form-control bg-success text-white" cols="30" rows="10"></textarea>
+              <textarea id="comentario" name="comentario" class="form-control bg-light text-dark" cols="30" rows="10"></textarea>
             </div>
             <div>
-              <button class="btn btn-primary" type="submit" id="BtnSubir">Subir</button>
+              <button class="btn btn-primary" type="button" id="BtnSubir" onclick="ValidaFormulario();">Subir</button>
             </div>
           </section>
         </form>
@@ -153,6 +156,8 @@
       </footer>
 
     </div>
+
+    <script src="./js/funciones.js"></script>
      
 </body>
 </html>
